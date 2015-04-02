@@ -5,8 +5,7 @@ aptitude update
 aptitude -y safe-upgrade
 
 # Install required packages
-aptitude -y install build-essential python-dev libmysqlclient-dev \
-python-pip screen git
+aptitude -y install build-essential python-dev libmysqlclient-dev python-pip git
 
 # Install 'iptables-persistent' package (optional)
 export DEBIAN_FRONTEND=noninteractive
