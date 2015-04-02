@@ -15,7 +15,7 @@ This will create a new Virtualbox VM on the fly (named **kippo-vagrant**) and st
 
 ## Port forwarding
 
-In your Internet-facing router forward incomming SSH connections (port 22/TCP) to port 2222/TCP on your host machine (our PC), which will automatically forward traffic to Kippo port on guest (the honeypot VM).
+In your Internet-facing router forward incoming SSH connections (port 22/TCP) to port 2222/TCP on your host machine (our PC), which will automatically forward traffic to Kippo port on guest (the honeypot VM).
 
 ## Firewall
 
