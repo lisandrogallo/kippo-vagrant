@@ -19,7 +19,7 @@ In your Internet-facing router forward incoming SSH connections (port 22/TCP) to
 
 ## Firewall
 
-Optionally, the script files included commands for installing and configuring **iptables-persistent** package in order to easily load iptables rules to filter incomming connections.
+Optionally, the script files included commands for installing and configuring **iptables-persistent** package in order to easily load iptables rules to filter incoming connections.
 
 It could be useful to configure default INPUT chain policy to **DROP** and accept connections only from specific sources based in geolocation. Using the service at **IP2Location** (http://www.ip2location.com/blockvisitorsbycountry.aspx) you can select a country and export the IPv4/IPv6 rules to use with iptables.
 
