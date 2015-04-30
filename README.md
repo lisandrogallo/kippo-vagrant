@@ -7,7 +7,7 @@ _This repository is based on Dionaea-Vagrant configuration available at https://
 
 ## Installation
 
-`git clone https://github.com/ikoniaris/dionaea-vagrant && cd dionaea-vagrant`
+`git clone https://github.com/lisogallo/kippo-vagrant && cd kippo-vagrant`
 
 `vagrant up`
 
